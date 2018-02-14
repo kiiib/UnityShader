@@ -1,4 +1,4 @@
-﻿Shader "Unity Shader Book/Chapter 5/ColorPickerShader" {
+﻿Shader "Unity Shaders Book/Chapter 5/ColorPickerShader" {
 	Properties {
 		// Declare a Color type attribute
 		_Color ("Color Tint", Color) = (1.0, 1.0, 1.0, 1.0)

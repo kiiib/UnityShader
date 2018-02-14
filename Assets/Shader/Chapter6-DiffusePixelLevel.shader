@@ -1,8 +1,6 @@
 ﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
-// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
-
-Shader "Unity Shader Book/Chapter 6/DiffusePixel-Level" {
+Shader "Unity Shaders Book/Chapter 6/DiffusePixel-Level" {
 	Properties {
 		// default value is white color
 		_Diffuse ("Diffuse", Color) = (1, 1, 1, 1)
