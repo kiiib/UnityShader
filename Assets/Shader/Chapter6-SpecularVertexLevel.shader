@@ -1,6 +1,4 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
-
-Shader "Unity Shaders Book/Chapter6/SPecualr Vertex-Level" {
+﻿Shader "Unity Shaders Book/Chapter6/SPecualr Vertex-Level" {
 	Properties {
 		_Diffuse ("Diffuse", Color) = (1, 1, 1, 1)
 		// Control the specular color of the material

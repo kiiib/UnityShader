@@ -1,5 +1,4 @@
-﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
-Shader "Unity Shaders Book/Chapter 6/HalfLambert-Level" {
+﻿Shader "Unity Shaders Book/Chapter 6/HalfLambert-Level" {
 	Properties {
 		// default value is white color
 		_Diffuse ("Diffuse", Color) = (1, 1, 1, 1)
