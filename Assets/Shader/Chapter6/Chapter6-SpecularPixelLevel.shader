@@ -19,7 +19,7 @@
 
 			fixed4 _Diffuse;
 			fixed4 _Specular;
-			fixed4 _Gloss;
+			float _Gloss;
 
 			struct a2v {
 				float4 vertex : POSITION;

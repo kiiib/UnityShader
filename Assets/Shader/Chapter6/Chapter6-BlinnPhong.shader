@@ -19,7 +19,7 @@
 
 			fixed4 _Diffuse;
 			fixed4 _Specular;
-			fixed4 _Gloss;
+			float _Gloss;
 
 			struct a2v {
 				float4 vertex : POSITION;
@@ -30,7 +30,6 @@
 				float4 pos : SV_POSITION;
 				float3 worldNormal : TEXCOORD0;
 				float3 worldPos : TEXCOORD1;
-				fixed3 color : COLOR;
 			};
 
 			v2f vert(a2v v) {
