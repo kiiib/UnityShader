@@ -20,7 +20,11 @@ Shader "Unity Shaders Book/Chapter 7/Single Texture" {
 
 			fixed4 _Color;
 			sampler2D _MainTex;
-			float4 _MainTex_ST;	// ST: scale and transalation
+
+			// ST: scale and transalation, which can get the scale value and transalation value from _MainTex
+			// _MainTex_ST.xy => scale value, _MainTex_ST.zw => transalation value
+			float4 _MainTex_ST;	
+
 			fixed4 _Specular;
 			float _Gloss;
 
